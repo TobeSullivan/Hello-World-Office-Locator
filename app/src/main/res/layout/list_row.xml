@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <TextView
+        android:id="@+id/listLocationName"
+        android:layout_width="0dp"
+        android:layout_weight=".25"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey"
+        android:gravity="center_horizontal"   />
+
+    <TextView
+        android:id="@+id/listLocationAddress"
+        android:layout_width="0dp"
+        android:layout_weight=".45"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey"
+        android:gravity="center_horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"/>
+
+    <TextView
+        android:id="@+id/listLocationDistance"
+        android:layout_width="0dp"
+        android:layout_weight=".3"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey"
+        android:gravity="center_horizontal"
+        android:text="@string/default_distance" />
+
+</LinearLayout>

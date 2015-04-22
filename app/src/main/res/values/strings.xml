@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Office Locator</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="default_distance">N/A</string>
+    <string name="distance_column">Distance</string>
+    <string name="name_column">Name</string>
+    <string name="address_column">Address</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="title_activity_locations">LocationsActivity</string>
+    <string name="call_button">Call</string>
+    <string name="directions_button">Directions</string>
+    <string name="connection_error">We apologize but you must have a network connection the first time you run this application. \n After your first time some features will be available in our offline mode</string>
+
+
+</resources>
